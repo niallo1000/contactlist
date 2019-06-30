@@ -14,6 +14,9 @@ const sample = {
     picture: {thumbnail: './profile.png'}
 }
 
+
+
+
 storiesOf("Contact List App/Header", module).add("default", () => (
     <Header noContacts={10} />
 ));

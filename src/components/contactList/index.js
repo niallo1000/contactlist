@@ -6,10 +6,13 @@ export default class ContactList extends Component {
     render() {
         const contactCards = this.props.contacts.map(c => (
             <Contact key={c.phone} contact={c} />
-        ));
+
+        ))
+        const numRows = contactCards.length;
         return (
             <div className="container-fluid contacts bg-info">
-                <div className="row">{contactCards}</div>
+               <div className="row">{contactCards}</div>
+                <div className="row">{numRows}</div>
             </div>
         );
     }
