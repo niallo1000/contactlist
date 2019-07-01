@@ -7,7 +7,7 @@ import api from "./dataStore/stubAPI"; // NEW
 
 class App extends Component {
     state = { search: "", gender: "all" };
-    componentDidMount() {
+    componentDidMount()  {
         request.get("https://randomuser.me/api/?results=50").end((error, res) => {
             if (res) {
                 let { results: contacts } = JSON.parse(res.text);
@@ -18,13 +18,18 @@ class App extends Component {
             }
         });
     }
+    deleteContact = (key) => {
+        api.delete(key);
+        this.setState({});
+    };
     render() {
         let contacts = api.getAll();
         return (
             <div className="jumbotron">
                 <Header noContacts={contacts.length} />
                 <FilterControls />
-                <ContactList contacts={contacts} />
+                <ContactList contacts={contacts}
+                             deleteHandler={this.deleteContact} />
             </div>
         );
     }
