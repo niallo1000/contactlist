@@ -8,6 +8,7 @@ import ContactList from '../src/components/contactList/'
 import { action } from '@storybook/addon-actions';
 import { MemoryRouter, Route } from "react-router";
 import PublicProfile from '../src/components/contactPublic/publicProfile'
+import ContactPrivateDetails from '../src/components/contactPrivate/'
 
 
 const sample = {
@@ -81,4 +82,9 @@ storiesOf("Contact List App/Contact List", module)
 storiesOf("Contact List App/Contact Page/PublicProfile", module)
     .add("default", () => (
         <PublicProfile user={sample}/>
+    ));
+
+storiesOf("Contact List App/Contact Page/ContactPrivate", module)
+    .add("default", () => (
+        <ContactPrivateDetails user={sample}/>
     ));
