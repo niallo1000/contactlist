@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca771e9-2a68-4842-a463-917214dbe2bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contactPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -64,10 +63,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/contactPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="17">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#135#192#0" expanded="true" />
               </folding>
             </state>
@@ -262,12 +260,12 @@
       <workItem from="1561903536504" duration="5228000" />
       <workItem from="1562008859007" duration="4018000" />
       <workItem from="1562097855970" duration="3046000" />
-      <workItem from="1562613095021" duration="262000" />
+      <workItem from="1562613095021" duration="514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16489000" />
+    <option name="totallyTimeSpent" value="16741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="0" width="1280" height="680" extended-state="0" />
@@ -482,10 +480,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/contactPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
             <element signature="e#135#192#0" expanded="true" />
           </folding>
         </state>
