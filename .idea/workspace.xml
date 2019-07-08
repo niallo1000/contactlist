@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca771e9-2a68-4842-a463-917214dbe2bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/integration/main-view.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/main-view.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/main-view.spec.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cypress/integration/main-view.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="98">
+              <caret line="108" column="15" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -196,12 +193,12 @@
       <workItem from="1562008859007" duration="4018000" />
       <workItem from="1562097855970" duration="3046000" />
       <workItem from="1562613095021" duration="3016000" />
-      <workItem from="1562617879053" duration="641000" />
+      <workItem from="1562617879053" duration="907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19884000" />
+    <option name="totallyTimeSpent" value="20150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1280" height="680" extended-state="0" />
@@ -447,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/integration/main-view.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="98">
+          <caret line="108" column="15" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
         </state>
       </provider>
     </entry>
