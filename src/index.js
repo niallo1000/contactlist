@@ -7,6 +7,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import App from "./App";
 import ContactPage from "./components/contactPage";
 
+require('dotenv').config();
+
 class Router extends Component {
     componentDidMount() {
         request.get("https://randomuser.me/api/?results=50").end((error, res) => {
